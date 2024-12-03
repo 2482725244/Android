@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/topbar"/>
+
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:background="@drawable/side2"
+        android:hint="请提出您宝贵的意见"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <Button
+        android:id="@+id/ac_spaek_btn"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:background="#03A9F4"
+        android:layout_gravity="center"
+        android:text="提        交"
+        android:textSize="23sp"
+        android:textColor="#fff"
+        android:layout_marginTop="30dp"/>
+
+
+
+
+
+
+
+</LinearLayout>

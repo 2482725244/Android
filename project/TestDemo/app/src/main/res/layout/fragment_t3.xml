@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/f_tv"
+        android:text="我在变化吗,fragment3"
+        android:textSize="32sp"
+        android:textColor="#000"
+        android:background="#002ED4"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <Button
+        android:id="@+id/f_bchange"
+        android:layout_marginTop="20dp"
+        android:text="切换"
+        android:textColor="#000"
+        android:textSize="32sp"
+        android:background="#FFC107"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/ac_welcom_vp"
+        android:background="#ccc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <View
+            android:id="@+id/ac_wel_bv1"
+            android:background="@drawable/select_welcom"
+            android:layout_width="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_height="40dp"/>
+
+        <View
+            android:id="@+id/ac_wel_bv2"
+            android:background="@drawable/select_welcom"
+            android:layout_width="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="40dp"/>
+
+        <View
+            android:id="@+id/ac_wel_bv3"
+            android:background="@drawable/select_welcom"
+            android:layout_width="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="40dp"/>
+
+        <View
+            android:id="@+id/ac_wel_bv4"
+            android:background="@drawable/select_welcom"
+            android:layout_width="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="40dp"/>
+
+        <View
+            android:id="@+id/ac_wel_bv5"
+            android:background="@drawable/select_welcom"
+            android:layout_width="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

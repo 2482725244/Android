@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/ac_main_vp2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11"/>
+
+    <LinearLayout
+        android:background="#999EBD"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/ac_main_bootom_l1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ac_main_bootom_i1"
+                android:background="@drawable/select_index_bottom"
+                android:layout_width="32dp"
+                android:layout_height="32dp"/>
+            <TextView
+                android:text="主页"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ac_main_bootom_l2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ac_main_bootom_i2"
+                android:background="@drawable/select_all_bottom"
+                android:layout_width="32dp"
+                android:layout_height="32dp"/>
+            <TextView
+                android:text="全部服务"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ac_main_bootom_l3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ac_main_bootom_i3"
+                android:background="@drawable/select_zhihui_bottom"
+                android:layout_width="32dp"
+                android:layout_height="32dp"/>
+            <TextView
+                android:text="智慧党建"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ac_main_bootom_l4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ac_main_bootom_i4"
+                android:background="@drawable/select_newpager_bottom"
+                android:layout_width="32dp"
+                android:layout_height="32dp"/>
+            <TextView
+                android:text="新闻"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ac_main_bootom_l5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ac_main_bootom_i5"
+                android:background="@drawable/select_me_bottom"
+                android:layout_width="32dp"
+                android:layout_height="32dp"/>
+            <TextView
+                android:text="个人中心"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

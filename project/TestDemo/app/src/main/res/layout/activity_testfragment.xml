@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt"
+        android:text="更改fragment文字"
+        android:textSize="20sp"
+        android:background="#6F7AB8"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/bf"
+        android:textSize="20sp"
+        android:layout_marginTop="3dp"
+        android:text="切换fragment"
+        android:background="#6F7AB8"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="60dp"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_place"
+        android:layout_marginTop="10dp"
+        android:background="#AFB1AD"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

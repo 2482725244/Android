@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".fragment.IndexFragment">
+
+    <include layout="@layout/topbar"/>
+
+    <LinearLayout
+        android:id="@+id/fragment_spa_head"
+        android:orientation="horizontal"
+        android:background="@drawable/pengyuquanbeujing"
+        android:layout_width="match_parent"
+        android:layout_height="260dp">
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:background="#33000000"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <ImageView
+                android:id="@+id/fragment_spa_head_tx"
+                android:src="@drawable/me_tx"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+            <TextView
+                android:id="@+id/fragment_spa_head_personlity"
+                android:text="情不知所起，一往而情深"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="33dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fragment_spa_body_content"
+        android:text="还没有人发动态"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</LinearLayout>

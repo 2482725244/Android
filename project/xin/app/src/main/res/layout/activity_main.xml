@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/main_viewpager"
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:layout_height="0dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:background="#f2f2f2"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:id="@+id/main_bottom1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#f2f2f2"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/main_bottm_iv1"
+                android:layout_width="28dp"
+                android:background="@drawable/layout_index"
+                android:layout_height="28dp"/>
+            <TextView
+                android:id="@+id/main_bottm_tv1"
+                android:text="首页"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/main_bottom2"
+            android:layout_marginTop="3dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#f2f2f2"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/main_bottm_iv2"
+                android:layout_width="28dp"
+                android:background="@drawable/layout_spa"
+                android:layout_height="28dp"/>
+            <TextView
+                android:id="@+id/main_bottm_tv2"
+                android:text="聊天"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/main_bottom3"
+            android:layout_marginTop="3dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#f2f2f2"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/main_bottm_iv3"
+                android:layout_width="28dp"
+                android:background="@drawable/layout_dia"
+                android:layout_height="28dp"/>
+            <TextView
+                android:id="@+id/main_bottm_tv3"
+                android:text="社区"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/main_bottom4"
+            android:layout_marginTop="3dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#f2f2f2"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/main_bottm_iv4"
+                android:layout_width="28dp"
+                android:background="@drawable/layout_me"
+                android:layout_height="28dp"/>
+            <TextView
+                android:id="@+id/main_bottm_tv4"
+                android:text="我的"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

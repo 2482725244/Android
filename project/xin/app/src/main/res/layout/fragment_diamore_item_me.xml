@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/me_tx"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:background="#50A854"
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:id="@+id/fragment_diamore_me_messenger"
+            android:background="@drawable/fragment_diamore_messenger_tv"
+            android:gravity="center"
+            android:padding="13dp"
+            android:maxWidth="260dp"
+            android:minHeight="60dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="你在做什么"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="28dp"/>
+
+</LinearLayout>

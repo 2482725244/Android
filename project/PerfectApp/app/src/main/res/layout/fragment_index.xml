@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/topbar"/>
+
+    <LinearLayout
+        android:background="#3F51B5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <EditText
+            android:id="@+id/fra_index_find"
+            android:textColorHint="#fff"
+            android:drawableLeft="@drawable/sousuo"
+            android:drawablePadding="12dp"
+            android:hint="搜索"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/fra_index_vp"
+                android:background="#ccc"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="122dp"
+                >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/fra_index_row1_l1"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_index_row1_i1"
+                            android:src="@drawable/newpager"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="新闻"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_index_row1_l2"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_index_row1_i2"
+                            android:src="@drawable/i_an"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="智慧安防"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_index_row1_l3"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_index_row1_i3"
+                            android:src="@drawable/i_huan"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="智慧环保"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_index_row1_l4"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_index_row1_i4"
+                            android:src="@drawable/i_jiao"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="智慧交通"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_index_row1_l5"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_index_row1_i5"
+                            android:src="@drawable/i_wu"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="智慧物流"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/fra_index_row2_l1"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_index_row2_i1"
+                            android:src="@drawable/i_xiao"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="智慧校园"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_index_row2_l2"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_index_row2_i2"
+                            android:src="@drawable/i_yang"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="智慧养老"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_index_row2_l3"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_index_row2_i3"
+                            android:src="@drawable/i_yi"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="智慧医疗"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_index_row2_l4"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_index_row2_i4"
+                            android:src="@drawable/i_zheng"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="智慧政务"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_index_row2_l5"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_index_row2_i5"
+                            android:src="@drawable/more"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="更多服务"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:text="新闻"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="20sp"
+                android:background="#f7f7f7"
+                android:layout_marginTop="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/fragment_index_newpager_recycleview"
+                android:layout_width="match_parent"
+                android:layout_height="416dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

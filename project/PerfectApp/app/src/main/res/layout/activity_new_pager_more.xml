@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/topbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ac_newpager_title"
+                android:text="cccccc"
+                android:textColor="#000"
+                android:textSize="26sp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/ac_newpager_iv"
+                android:background="#ccc"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                />
+
+            <TextView
+                android:id="@+id/ac_newpager_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text="      山东i送i发joie附件四哦对奇偶位偶滴妇女哦地方v波丢包哦i你的佛iv不能东方vi你的否吧"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/ac_newpager_speak"
+                android:layout_marginTop="10dp"
+                android:text="用户评论"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#2196F3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/ac_newpager_recycle"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <EditText
+                    android:id="@+id/ac_newpager_put"
+                    android:layout_gravity="center"
+                    android:hint="说点什么..."
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:textColorHint="#756B6B"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"/>
+
+                <Button
+                    android:id="@+id/ac_newpager_btn"
+                    android:layout_gravity="center"
+                    android:background="#2196F3"
+                    android:text="发送"
+                    android:textColor="#fff"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="今日热门"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#2196F3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/ac_newpager_recycle_push"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

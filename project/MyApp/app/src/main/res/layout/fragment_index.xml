@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/action_bar"/>
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/fragment_index_vp"
+                android:focusable="true"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="#ccc"/>
+
+            <LinearLayout
+                android:background="#888"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:id="@+id/fragment_index_row1"
+                    android:background="#222"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/fragment_index_row_1"
+                        android:background="#333"
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fragment_index_row_1_iv"
+                            android:background="#f00"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="7"/>
+
+                        <TextView
+                            android:text="啊啊啊"
+                            android:textSize="12dp"
+                            android:textColor="#fff"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"/>
+                        />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fragment_index_row_2"
+                        android:background="#333"
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fragment_index_row_2_iv"
+                            android:background="#f00"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="7"/>
+
+                        <TextView
+                            android:text="啊啊啊"
+                            android:textSize="12dp"
+                            android:textColor="#fff"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"/>
+                        />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fragment_index_row_3"
+                        android:background="#333"
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fragment_index_row_3_iv"
+                            android:background="#f00"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="7"/>
+
+                        <TextView
+                            android:text="啊啊啊"
+                            android:textSize="12dp"
+                            android:textColor="#fff"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"/>
+                        />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/fragment_index_row2"
+                    android:background="#222"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/fragment_index_row2_1"
+                        android:background="#333"
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fragment_index_row2_1_iv"
+                            android:background="#f00"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="7"/>
+
+                        <TextView
+                            android:text="啊啊啊"
+                            android:textSize="12dp"
+                            android:textColor="#fff"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"/>
+                        />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fragment_index_row2_2"
+                        android:background="#333"
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fragment_index_row2_2_iv"
+                            android:background="#f00"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="7"/>
+
+                        <TextView
+                            android:text="啊啊啊"
+                            android:textSize="12dp"
+                            android:textColor="#fff"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"/>
+                        />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fragment_index_row2_3"
+                        android:background="#333"
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fragment_index_row2_3_iv"
+                            android:background="#f00"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="7"/>
+
+                        <TextView
+                            android:text="啊啊啊"
+                            android:textSize="12dp"
+                            android:textColor="#fff"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"/>
+                        />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/fragment_index_recycler"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

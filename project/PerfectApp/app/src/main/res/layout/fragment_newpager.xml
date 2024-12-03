@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/topbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/fra_newpager_vplb"
+                android:background="#ccc"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"/>
+
+            <TextView
+                android:text="新闻分类"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="20sp"
+                android:background="#f7f7f7"
+                android:layout_marginTop="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"/>
+
+
+
+            <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/fra_newpager_l1"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_newpager_i1"
+                            android:src="@drawable/x_tou"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="今日头条"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_newpager_l2"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_newpager_i2"
+                            android:src="@drawable/x_bao"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="媒体报道"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_newpager_l3"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_newpager_i3"
+                            android:src="@drawable/x_fu"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="新闻副刊"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_newpager_l4"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_newpager_i4"
+                            android:src="@drawable/x_ping"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="新闻评论"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:text="新闻列表"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="20sp"
+                android:background="#f7f7f7"
+                android:layout_marginTop="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"/>
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/fragment_newpager_recycleview"
+                android:layout_width="match_parent"
+                android:layout_height="416dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

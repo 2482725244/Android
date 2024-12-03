@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/topbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/fra_zhihui_vp"
+                android:background="#ccc"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"/>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:text="党建动态"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:textSize="20sp"
+                    android:background="#f7f7f7"
+                    android:layout_marginTop="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/fra_zhihui_row1_l1"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_zhihui_row1_i1"
+                            android:src="@drawable/z_zhan"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="文章展示"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_zhihui_row1_l2"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_zhihui_row1_i2"
+                            android:src="@drawable/z_fen"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="文章分类"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_zhihui_row1_l3"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_zhihui_row1_i3"
+                            android:src="@drawable/z_ping"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="文章评论"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:text="党员学习"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:textSize="20sp"
+                    android:background="#f7f7f7"
+                    android:layout_marginTop="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/fra_zhihui_row2_l1"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_zhihui_row2_i1"
+                            android:src="@drawable/z_fen2"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="课程分类"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_zhihui_row2_l2"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_zhihui_row2_i2"
+                            android:src="@drawable/z_guan"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="章节管理"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_zhihui_row2_l3"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_zhihui_row2_i3"
+                            android:src="@drawable/z_xue"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="学习记录"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:text="组织活动"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:textSize="20sp"
+                    android:background="#f7f7f7"
+                    android:layout_marginTop="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/fra_zhihui_row3_l1"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_zhihui_row3_i1"
+                            android:src="@drawable/z_zhan2"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="活动展示"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_zhihui_row3_l2"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_zhihui_row3_i2"
+                            android:src="@drawable/z_bao"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="活动报名"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/fra_zhihui_row3_l3"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/fra_zhihui_row3_i3"
+                            android:src="@drawable/z_yan"
+                            android:layout_width="32dp"
+                            android:scaleType="fitXY"
+                            android:layout_height="32dp"/>
+
+                        <TextView
+                            android:text="活动留言"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

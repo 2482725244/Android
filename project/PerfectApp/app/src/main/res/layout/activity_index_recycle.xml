@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/fra_index_recycle_iv"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:background="#ff3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fra_index_recycle_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+        <TextView
+            android:id="@+id/fra_index_recycle_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="内容"
+            android:textSize="16sp"
+            android:textColor="#302B2B"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/fra_index_recycle_ptext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ptext"
+            android:textSize="12sp"
+            android:textColor="#302B2B"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/fra_index_recycle_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:textSize="12sp"
+            android:textColor="#302B2B"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

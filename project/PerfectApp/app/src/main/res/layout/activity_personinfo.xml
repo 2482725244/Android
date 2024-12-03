@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/topbar"/>
+
+
+    <ImageView
+        android:src="@drawable/me_tt"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:text="
+                      昵称：新青年\n
+                      性别：男\n
+                      年龄：20\n
+                      特长：跑得快\n
+                      爱好：唱、跳、rap、篮球\n
+
+                                        "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+
+
+
+</LinearLayout>

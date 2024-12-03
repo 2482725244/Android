@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/b2"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"/>
+
+    <TextView
+        android:textSize="32sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:text="点击任意处进入"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/index3_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#03A9F4"
+        android:text="开始体验"
+        android:textSize="32sp"
+        android:layout_width="200dp"
+        android:layout_height="80dp"/>
+
+</LinearLayout>

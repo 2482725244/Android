@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/login_user"
+        android:hint="请输入账号/手机号"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/user"
+        android:paddingBottom="3dp"
+        android:drawablePadding="5dp"
+        android:maxLines="1"
+        android:maxLength="11"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <EditText
+        android:id="@+id/login_password"
+        android:hint="请输入密码"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:maxLength="20"
+        android:paddingBottom="3dp"
+        android:textScaleX="1"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="5dp"
+
+        android:paddingLeft="10dp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+    <Button
+        android:id="@+id/login_conmit"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/login_comit"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="登录"
+        android:textColor="#fff"
+        android:textSize="28dp"
+        android:layout_gravity="center"/>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topbar_top"
+    android:orientation="horizontal"
+    android:background="@color/teal_200"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <ImageView
+        android:id="@+id/topbar_iv"
+        android:layout_width="18dp"
+        android:background="@drawable/layout_back"
+        android:layout_height="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:id="@+id/top_tv"
+        android:text="两个"
+        android:textSize="23sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

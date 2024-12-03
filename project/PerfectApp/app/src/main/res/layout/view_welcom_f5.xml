@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/c_5"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/ac_we_wbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/select_button"
+        android:text="进入网络设置"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_width="130dp"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/ac_we_inbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/select_button"
+        android:text="进入主页"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_width="130dp"
+        android:layout_height="60dp"/>
+
+</RelativeLayout>
